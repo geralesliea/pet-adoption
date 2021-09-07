@@ -147,14 +147,24 @@ width: 100%;
 
 }
 .form-inputs {
-    margin-bottom: 30px;
-    text-align: center;
+    text-align: initial;
+    margin-left: 512px;
+    margin-bottom:20px;
 }
 .container{
     text-align: center;
 }
 
-
+#name{
+    font-size: 15px;
+}
+#last-name{
+    font-size: 15px;
+    
+}
+#gmail{
+    font-size: 15px;
+}
 
 
 #pet1{
