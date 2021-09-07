@@ -16,10 +16,11 @@ section {
     margin: 100px auto;
 }
 h1{
+    text-align: center;
     margin: 20mm;
     font-size:60px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: tomato;
+    color:rgb(228, 84, 40);
 }
 h2{
     margin: 20mm;
@@ -36,16 +37,20 @@ h3{
 h4{
     margin: 20mm;
     margin-bottom:30px;
-    font-size:50px;
-    font-family:monospace;
-    color:orangered;
+    margin-top:30px;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(17, 13, 48);
     text-align: center;
 
 }
 p.italic{
     font-style:italic;
     text-align: center;   
-    font-size:15px;
+    font-size:17px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
 }
 p {
     text-align: center;
@@ -56,11 +61,12 @@ p {
 img {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 79px;
+    margin-top: 11px;
   }
 .bg-home{
 background-position: left top;
-background-color:rgb(223, 126, 29);
+background-color:rgb(248, 143, 82);
 min-height:250px;
 width: 100%;
 
@@ -93,22 +99,22 @@ width: 100%;
 .navbar-page{
     
     color:seashell;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 400;
-    font-size:35px;
-    margin-left:100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:400;
+    font-size:30px;
+    margin-left: 45px;
     margin-top:100px;
     
 }
 .navbar-ul {
     display: flex;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left:300px;
+    margin-left: 400px;
     margin-top:100px;
     cursor: pointer;
     letter-spacing: 1px;
@@ -118,9 +124,6 @@ width: 100%;
 }
 .navbar-header {
     margin-top:100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size:40px;
     letter-spacing: 6px;
 
 }
@@ -131,14 +134,16 @@ width: 100%;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+    color:rgb(4, 116, 116);
  
 }
 .h5-style{
     text-align: center;
-    color: darkorange;
+    color: rgb(226, 67, 4);
     font-size:35px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    margin-bottom: 25px;
+  
 
 }
 .form-inputs {
@@ -188,7 +193,7 @@ width: 100%;
 .question{
     text-align: center;
     font-size:15px;
-    margin-top:15px;
+    margin-top:20px;
 }
 .footer {
     position: relative;
