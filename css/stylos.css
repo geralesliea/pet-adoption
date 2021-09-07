@@ -213,9 +213,31 @@ width: 100%;
     text-align: initial;
     font-size:15px;
     margin-top:20px;
-    margin-left: 320px;
+    margin-left: 365px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#answer-one{
+    width:100px;
+    margin-left:100px;
+}
+#answer-two{
+    width:100px;
+    margin-left: 65px;
+}
+#answer-three{
+    width:100px;
+    margin-left: 71px;
+}
+#answer-four{
+    width:100px;
+    margin-left: 197px;
+}
+#answer-five{
+    width:100px;
+    margin-left: 189px;
+}
+
 .footer {
     position: relative;
     bottom: 0;
