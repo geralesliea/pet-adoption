@@ -9,8 +9,6 @@ a {
 }
 main{
     margin: 0 auto;
-   min-width: 45em;
-   max-width: 45em;
 }
 section {
     margin: 100px auto;
@@ -18,8 +16,8 @@ section {
 }
 h1{
     text-align: center;
-    margin: 20mm;
-    font-size:60px;
+    margin: 20px;
+    font-size: 40px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:rgb(228, 84, 40);
 }
@@ -61,20 +59,27 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
+.navbar-page img {
     display: block;
-    margin-left:auto;
-    margin-right: 79px;
-    margin-top: 15px;
-    margin-bottom: -45px;
+    width: 150px;
   }
+.t-aling-center{
+    text-align: center;
+}
 .bg-home{
     background-position: left top;
     background-color:rgb(248, 143, 82);
     min-height: 150px;
     width: 100%;
-
     }
+.fa{
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.margin-left{
+    margin-left:20px;
+}
 .navbar {
     position: relative;
     min-height: 50px;
@@ -100,16 +105,7 @@ img {
 .txt-end{
     text-align: end;
 }
-.navbar-page{
-    
-    color:seashell;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:400;
-    font-size:30px;
-    margin-left: 15px;
-    margin-top:100px;
-    
-}
+
 .navbar-ul {
     display: flex;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -117,27 +113,26 @@ img {
     font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 739px;
     margin-top:15px;
     cursor: pointer;
     letter-spacing: 1px;
-
     padding-top: 6px;
-    margin-left: 739px;
-    margin-top: 15px;
+    width: 80%;
+    justify-content: end;
     
 }
 .navbar-header {
-    margin-top:15px;
     letter-spacing: 6px;
-    margin-left: 4px;
-    margin-right: -290px;
+    width: 20%;
+    margin: 10px 20px;
 }
 
 
 .h2-center {
     text-align: center;
-}
+        max-width: 400px;
+    }
+
 .h5-center{
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -165,24 +160,27 @@ img {
     text-align: center;
 }
 
-
-
-
-#pet1{
-    margin-left: 166px;
-   margin-right:200px;
-   margin-top:50px;
-   margin-bottom:100px;
+#pet1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+#pet1 img {
+    max-width: 300px;
+}
+#pet3 img {
+    max-width: 300px;
 }
 
 
-#pet3{
-    margin-top:100px;
-    margin-right: 72px;
-    margin-bottom:100px;
-    margin-left:100px;
-   
-   
+#pet3 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
 }
 .pets-image{
     margin-left:100px;
@@ -201,23 +199,23 @@ img {
     }
 .button-two{
   margin-top:5px;
-  margin-left: 600px;
   background-color:lightblue
   
 
 }
 .button-one{
     margin-top:5px;
-    margin-left: 635px;
     background-color:lightblue
 }
 .question{
     text-align: initial;
     font-size:15px;
     margin-top:20px;
-    margin-left: 365px;
+    margin-left:auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    width:100%;
+    justify-content: center;
 }
 
 #answer-one{
@@ -240,8 +238,6 @@ img {
     width: 120px;
     margin-left: 189px;
 }
-
-
 .footer {
     position: relative;
     bottom: 0;
@@ -251,3 +247,22 @@ img {
     background-color: #cfcece;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#menu-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 670px) {
+    #menu-desktop {
+        display: none;
+    }
+    #menu-mobile {
+        display: flex;
+        width: 20%;
+        margin: auto;
+        justify-content: center;
+    }
+    .navbar-header {
+        width: 80%; 
+    }
+  }
