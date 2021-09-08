@@ -215,28 +215,30 @@ width: 100%;
     margin-top:20px;
     margin-left: 365px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
 }
 
 #answer-one{
-    width:100px;
+    width: 120px;
     margin-left:100px;
 }
 #answer-two{
-    width:100px;
+    width: 120px;
     margin-left: 65px;
 }
 #answer-three{
-    width:100px;
+    width: 120px;
     margin-left: 71px;
 }
 #answer-four{
-    width:100px;
+    width: 120px;
     margin-left: 197px;
 }
 #answer-five{
-    width:100px;
+    width: 120px;
     margin-left: 189px;
 }
+
 
 .footer {
     position: relative;
