@@ -64,6 +64,10 @@ img {
     margin-right: 79px;
     margin-top: 10px;
   }
+  .navbar-page img {
+    display: block;
+    width: 150px;
+}
 .bg-home{
 background-position: left top;
 background-color:rgb(248, 143, 82);
@@ -96,36 +100,26 @@ width: 100%;
 .txt-end{
     text-align: end;
 }
-.navbar-page{
-    
-    color:seashell;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:400;
-    font-size:30px;
-    margin-left: 45px;
-    margin-top:100px;
-    
-}
+
 .navbar-ul {
     display: flex;
-    margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 400px;
     margin-top: 15px;
     cursor: pointer;
     letter-spacing: 1px;
-    height: 24px;
     padding-top: 6px;
-    
+    width: 80%;
+    justify-content: end;
 }
-.navbar-header {
-    margin-top: 15px;
-    letter-spacing: 6px;
 
+.navbar-header {
+    letter-spacing: 6px;
+    width: 20%;
+    margin: 10px 20px;
 }
 .h2-center {
     text-align: center;
@@ -162,10 +156,6 @@ width: 100%;
    margin-right:200px;
    margin-top:50px;
    margin-bottom:100px;
-  
-    
-   
-
 }
 
 
@@ -193,12 +183,13 @@ width: 100%;
     border-radius:80px; 
     }
 .button-two{
-  margin-top:5px;
-  margin-left: 615px;
-  background-color:lightblue
-  
-
+    margin-top: 5px;
+    background-color: lightblue;
 }
+.t-aling-center {
+    text-align: center;
+}
+
 .question{
     text-align: center;
     font-size:15px;
@@ -212,3 +203,26 @@ width: 100%;
     line-height: 60px;
     background-color: #f5f5f5;
 }
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+#menu-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 670px) {
+    #menu-desktop {
+        display: none;
+    }
+    #menu-mobile {
+        display: flex;
+        width: 20%;
+        margin: auto;
+        justify-content: center;
+    }
+    .navbar-header {
+        width: 80%; 
+    }
+  }
