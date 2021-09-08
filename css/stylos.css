@@ -75,10 +75,7 @@ width: 100%;
 
 }
 .navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
+    display: flex;
 }
 .container-navbar {
     display: flex;
@@ -99,16 +96,7 @@ width: 100%;
 .txt-end{
     text-align: end;
 }
-.navbar-page{
-    
-    color:seashell;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:400;
-    font-size:30px;
-    margin-left: 15px;
-    margin-top:100px;
-    
-}
+
 .navbar-ul {
     display: flex;
     margin: 0;
