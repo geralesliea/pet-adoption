@@ -31,9 +31,12 @@ h2{
 
 }
 h3{
-    font-size:40px;
+    font-size:35px;
     font-family:cursive;
     color:darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -50px;
+    margin-bottom: 10px;
 }
 h4{
     margin: 20mm;
@@ -55,7 +58,7 @@ p.italic{
    
 }
 p {
-    text-align: center;
+    text-align: initial;
     font-size:15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -195,7 +198,7 @@ img {
     color: #ffffff; 
     text-decoration: none; 
     text-transform: uppercase; 
-    font-family: 'Helvetica', sans-serif; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
     border-radius:80px; 
     }
 .button-two{
