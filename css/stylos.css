@@ -65,23 +65,19 @@ img {
     margin-left:auto;
     margin-right: 79px;
     margin-top: 15px;
-    margin-bottom:20px;
-  }
+    }
+  
+  
   .navbar-page img {
     display: block;
-    margin-left: auto;
-    margin-right: 79px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    width: 150px;
 }
-.bg-home{
-background-position: left top;
-background-color:rgb(248, 143, 82);
-min-height: 150px;
-width: 100%;
-
+.bg-home {
+    background-position: left top;
+    background-color: rgb(248, 143, 82);
+    min-height: 150px;
+    width: 100%;
 }
-
 .navbar {
     display: flex;
 }
@@ -105,27 +101,26 @@ width: 100%;
     text-align: end;
 }
 
+
+.navbar-header {
+    letter-spacing: 6px;
+    width: 20%;
+    margin: 10px 20px;
+}
 .navbar-ul {
     display: flex;
-    margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top:15px;
+    margin-top: 15px;
     cursor: pointer;
     letter-spacing: 1px;
     padding-top: 6px;
-    
+    width: 80%;
+    justify-content: end;
 }
-.navbar-header {
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
-        color: rgb(4, 116, 116);
-}
-
 
 .h2-center {
     text-align: center;
@@ -198,10 +193,12 @@ width: 100%;
   
 
 }
-.button-one{
-    margin-top:5px;
-    margin-left: 635px;
-    background-color:lightblue
+.button-one {
+    margin-top: 5px;
+    background-color: lightblue;
+}
+.t-aling-center {
+    text-align: center;
 }
 .question{
     text-align: initial;
