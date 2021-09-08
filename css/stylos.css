@@ -173,25 +173,14 @@ img {
 }
 .pets-image{
     margin-left:100px;
-    margin-right:100px;
-}
-
-.button {
-    border: 1px solid #02b44c; 
-    padding: 10px 10px 10px 10px; 
-    background-color: #34d10c; 
-    color: #ffffff; 
-    text-decoration: none; 
-    text-transform: uppercase; 
-    font-family: 'Helvetica', sans-serif; 
-    border-radius:80px; 
+        display: none;
     }
+    
 .button-two{
   margin-top:5px;
   margin-left: 600px;
   background-color:lightblue
   
-
 }
 .button-one {
     margin-top: 5px;
@@ -215,3 +204,21 @@ img {
     line-height: 60px;
     background-color: #f5f5f5;
 }
+#menu-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 670px) {
+    #menu-desktop {
+        display: none;
+    }
+    #menu-mobile {
+        display: flex;
+        width: 20%;
+        margin: auto;
+        justify-content: center;
+    }
+    .navbar-header {
+        width: 80%; 
+    }
+  }
