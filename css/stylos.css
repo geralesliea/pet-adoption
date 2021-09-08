@@ -79,8 +79,12 @@ img {
     width: 100%;
 }
 .navbar {
-    display: flex;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
 }
+
 .container-navbar {
     display: flex;
 }
@@ -151,7 +155,11 @@ img {
 .container{
     text-align: center;
 }
-
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
 
 
 
