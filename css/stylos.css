@@ -278,6 +278,9 @@ input {
 #menu-mobile {
     display: none;
 }
+.button-adoptar {
+    margin-top: 40px;
+}
 
 @media only screen and (max-width: 670px) {
     #menu-desktop {
