@@ -8,40 +8,64 @@
     <title>Perfil</title>
 </head>
 <body>
-<header class="bg-home">
+  <header class="bg-home">
     <nav class="navbar navbar-default">
         <div class="container-navbar">
           <div class="navbar-header">
-            <a class="navbar-page" href="#">Adoption PET</a>
-            <img src="imagen/logo pets.jpg" alt="logo-pets" width="100" height="auto">
+           <a class="navbar-page" href="">
+            <img src="imagen/logo pets.jpg" alt="logo-pets">
+           </a>
+            
           </div>
-          <ul class="navbar-ul">
+          <ul class="navbar-ul" id="menu-desktop">
             <li class="active"><a href="home.html">Home</a></li>
             <li><a href="register.html">Register</a></li>
             <li><a href="perfil.html">Perfil</a></li>
             <li><a href="adoptar.html">Adoptar</a></li>
           </ul>
+          <a href="" class="icon" id="menu-mobile">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
+
       </nav>
 </header>
+
     <section>
-    <h5 class="h5-center">INICIAR PERFIL</h5>
+      <div class="flex t-aling-center mw-500px">
+        <h5 class="h5-center w-50">MI PERFIL</h5>
+        <div class="txt-end w-50">
+          <button class="button-two" onclick="EditPerfil(this)">Editar mi perfil</button>
+        </div>
+      </div>
+
 <form action="">
+
     <div class="form-inputs">
-        <label for="">Usuario</label>
-        <input type="text" id="Username" name="Username" required
-        minlength="8" maxlength="10" size="15">
+      <input type="text" id="name" name="name" required
+      minlength="8" maxlength="100" size="15"
+      placeholder="name" value="Geraldine" disabled>
     </div>
     <div class="form-inputs">
-        <label for="">Contraseña</label>
-        <input type="text" id="password" name="pasword" required
-        minlength="6" maxlength="10" size="15">
+      <input type="text" id="last-name" name="last-name" required
+      minlength="8" maxlength="100" size="15"
+      placeholder="last-name" value="De la vega" disabled>
+    </div>
+    <div class="form-inputs">
+        <input type="text" id="email" name="email" required
+        minlength="8" maxlength="100" size="15"
+        placeholder="Usuario" value="leslia.07@gmail.com" disabled>
+    </div>
+    <div class="form-inputs">
+        <input type="password" id="password" name="pasword" required
+        minlength="6" maxlength="100" size="15"
+        placeholder="Contraseña" value="geraldine123456" disabled>
     </div>
 </form>
-<div>
-    <button class="button-two">INGRESAR</button>
-</div>
-</section>
 
+</section>
+<script src="js/edit_perfil.js" >
+
+</script>
 </body>
 </html>
