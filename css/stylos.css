@@ -59,6 +59,10 @@ p {
     font-size:15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+input {
+    padding: 10px 10px;
+    font-size: 15px;
+}
 
 .navbar-page img {
     display: block;
@@ -97,10 +101,6 @@ p {
 }
 .mt-10 {
     margin-top: 10px;
-}
-
-.mb-10 {
-    margin-bottom: 10px;
 }
 .mt-20 {
     margin-top: 20px;
@@ -153,7 +153,8 @@ p {
 }
 .form-inputs {
     text-align: initial;
-    margin: 30px auto;
+    margin: 10px auto;
+    line-height: 60px;
     max-width: 500px;
     display: block;
     text-align: center;
@@ -258,9 +259,7 @@ p {
     #menu-desktop {
         display: none;
     }
-    #menu-mobile {
-        display: flex;
-        width: 20%;
+#menu-mobile {
         margin: auto;
         justify-content: center;
     }
