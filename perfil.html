@@ -32,23 +32,40 @@
 </header>
 
     <section>
-    <h5 class="h5-center">INICIAR PERFIL</h5>
+      <div class="flex t-aling-center mw-500px">
+        <h5 class="h5-center w-50">MI PERFIL</h5>
+        <div class="txt-end w-50">
+          <button class="button-two" onclick="EditPerfil(this)">Editar mi perfil</button>
+        </div>
+      </div>
+
 <form action="">
+
     <div class="form-inputs">
-        <input type="text" id="Username" name="Username" required
-        minlength="8" maxlength="10" size="15"
-        placeholder="Usuario">
+      <input type="text" id="name" name="name" required
+      minlength="8" maxlength="100" size="15"
+      placeholder="name" value="Geraldine" disabled>
     </div>
     <div class="form-inputs">
-       
-        <input type="text" id="password" name="pasword" required
-        minlength="6" maxlength="10" size="15" placeholder="Contraseña">
+      <input type="text" id="last-name" name="last-name" required
+      minlength="8" maxlength="100" size="15"
+      placeholder="last-name" value="De la vega" disabled>
+    </div>
+    <div class="form-inputs">
+        <input type="text" id="email" name="email" required
+        minlength="8" maxlength="100" size="15"
+        placeholder="Usuario" value="leslia.07@gmail.com" disabled>
+    </div>
+    <div class="form-inputs">
+        <input type="password" id="password" name="pasword" required
+        minlength="6" maxlength="100" size="15"
+        placeholder="Contraseña" value="geraldine123456" disabled>
     </div>
 </form>
-<div class="t-aling-center">
-    <button class="button-two">INGRESAR</button>
-</div>
-</section>
 
+</section>
+<script src="js/edit_perfil.js" >
+
+</script>
 </body>
 </html>

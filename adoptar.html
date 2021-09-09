@@ -8,38 +8,40 @@
     <title>Adoptar</title>
 </head>
 <body>
-    <header class="bg-home">
-        <nav class="navbar navbar-default">
-            <div class="container-navbar">
-              <div class="navbar-header">
-                <a class="navbar-page" href="#">Adoption PET</a>
-                <img src="imagen/logo pets.jpg" alt="logo-pets" width="100" height="auto">
-              </div>
-              <ul class="navbar-ul">
-                <li class="active"><a href="home.html">Home</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="perfil.html">Perfil</a></li>
-                <li><a href="adoptar.html">Adoptar</a></li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+  <header class="bg-home">
+    <nav class="navbar navbar-default">
+        <div class="container-navbar">
+          <div class="navbar-header">
+           <a class="navbar-page" href="">
+            <img src="imagen/logo pets.jpg" alt="logo-pets">
+           </a>
+            
+          </div>
+          <ul class="navbar-ul" id="menu-desktop">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+            <li><a href="adoptar.html">Adoptar</a></li>
+          </ul>
+          <a href="" class="icon" id="menu-mobile">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+</header>
     <section>
         <h5 class="h5-style">ADOPTAR UNA MASCOTA</h5>
-        <div>          
-          <p class="italic">Adoptar una mascota es una descision seria de responsabilidades, como velar por la alimentación, salud y seguridad del animalito durante 
+        <div class="text-1">          
+          <p>Adoptar una mascota es una descision seria de responsabilidades, como velar por la alimentación, salud y seguridad del animalito durante 
         toda  su  vida  (que  oscila  entre  10  hasta  18  años),  brindarle  amor,  compañía  y  no abandonarlo  si  nos  vamos  de  viaje  o  
         nos  mudamos  de  casa</p>
-        <b><p>Nos reservamos el derecho de dar en adopcion luego de evaluar este formulario</p></b>
-
+        <p>Nos reservamos el derecho de dar en adopcion luego de evaluar este formulario</p>
         </div>
-
-       
-        
-        <form action="">
+        <div class="margin-questions">
+          <form action="">
             <div class="question"> 
                 <label for="">¿Vives en casa o departamento?</label>
-                <select name="answer one" id="answer one" >
+                <select name="answer-one" id="answer-one">
                   <option value=""></option>
                   <option>Casa</option>
                   <option>Departamento</option>
@@ -47,7 +49,7 @@
             </div>
             <div class="question"> 
                 <label for="">¿Te gusta realizar actividades físicas?</label>
-                <select name="answer two" id="answer two" >
+                <select name="answer two" id="answer-two" >
                   <option value=""></option>
                   <option>Si</option>
                   <option>No</option>
@@ -55,7 +57,7 @@
             </div>
             <div class="question"> 
                 <label for="">¿Tienes ingresos salariales estables?</label>
-                <select name="answer three" id="answer three" >
+                <select name="answer three" id="answer-three" >
                   <option value=""></option>
                   <option>Si</option>
                   <option>No</option>
@@ -63,7 +65,7 @@
             </div>
             <div class="question"> 
                 <label for="">¿Sufres de alergias?</label>
-                <select name="answer four" id="answer four" >
+                <select name="answer four" id="answer-four" >
                   <option value=""></option>
                   <option>Si</option>
                   <option>No</option>
@@ -71,7 +73,7 @@
             </div>
             <div class="question"> 
                 <label for="">¿Tienes tiempo libre?</label>   
-                <select name="answer five" id="answer five" >
+                <select name="answer five" id="answer-five" >
                   <option value=""></option>
                   <option>Si</option>
                   <option>No</option>
@@ -80,8 +82,7 @@
 
         </form>
 
-
-
+        </div>
     </section>
 </body>
 </html>
